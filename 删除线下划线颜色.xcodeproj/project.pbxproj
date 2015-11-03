@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64BBF69A1BE8459500419A55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBF6991BE8459500419A55 /* main.m */; };
+		64BBF69D1BE8459500419A55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBF69C1BE8459500419A55 /* AppDelegate.m */; };
+		64BBF6A01BE8459500419A55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBF69F1BE8459500419A55 /* ViewController.m */; };
+		64BBF6A31BE8459500419A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BBF6A11BE8459500419A55 /* Main.storyboard */; };
+		64BBF6A51BE8459500419A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BBF6A41BE8459500419A55 /* Assets.xcassets */; };
+		64BBF6A81BE8459500419A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BBF6A61BE8459500419A55 /* LaunchScreen.storyboard */; };
+		64BBF6B31BE8459600419A55 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBF6B21BE8459600419A55 /* ________Tests.m */; };
+		64BBF6BE1BE8459600419A55 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBF6BD1BE8459600419A55 /* ________UITests.m */; };
+		64BBF6CD1BE845E600419A55 /* NSMutableAttributedString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BBF6CC1BE845E600419A55 /* NSMutableAttributedString+Custom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64BBF6AF1BE8459600419A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BBF68D1BE8459500419A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BBF6941BE8459500419A55;
+			remoteInfo = "删除线下划线颜色";
+		};
+		64BBF6BA1BE8459600419A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BBF68D1BE8459500419A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BBF6941BE8459500419A55;
+			remoteInfo = "删除线下划线颜色";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64BBF6951BE8459500419A55 /* 删除线下划线颜色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "删除线下划线颜色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BBF6991BE8459500419A55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64BBF69B1BE8459500419A55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64BBF69C1BE8459500419A55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64BBF69E1BE8459500419A55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64BBF69F1BE8459500419A55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64BBF6A21BE8459500419A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64BBF6A41BE8459500419A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BBF6A71BE8459500419A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64BBF6A91BE8459500419A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BBF6AE1BE8459600419A55 /* 删除线下划线颜色Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "删除线下划线颜色Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BBF6B21BE8459600419A55 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		64BBF6B41BE8459600419A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BBF6B91BE8459600419A55 /* 删除线下划线颜色UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "删除线下划线颜色UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BBF6BD1BE8459600419A55 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		64BBF6BF1BE8459600419A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BBF6CB1BE845E500419A55 /* NSMutableAttributedString+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Custom.h"; sourceTree = "<group>"; };
+		64BBF6CC1BE845E600419A55 /* NSMutableAttributedString+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Custom.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64BBF6921BE8459500419A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BBF6AB1BE8459600419A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BBF6B61BE8459600419A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64BBF68C1BE8459500419A55 = {
+			isa = PBXGroup;
+			children = (
+				64BBF6971BE8459500419A55 /* 删除线下划线颜色 */,
+				64BBF6B11BE8459600419A55 /* 删除线下划线颜色Tests */,
+				64BBF6BC1BE8459600419A55 /* 删除线下划线颜色UITests */,
+				64BBF6961BE8459500419A55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64BBF6961BE8459500419A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64BBF6951BE8459500419A55 /* 删除线下划线颜色.app */,
+				64BBF6AE1BE8459600419A55 /* 删除线下划线颜色Tests.xctest */,
+				64BBF6B91BE8459600419A55 /* 删除线下划线颜色UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64BBF6971BE8459500419A55 /* 删除线下划线颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				64BBF6CB1BE845E500419A55 /* NSMutableAttributedString+Custom.h */,
+				64BBF6CC1BE845E600419A55 /* NSMutableAttributedString+Custom.m */,
+				64BBF69B1BE8459500419A55 /* AppDelegate.h */,
+				64BBF69C1BE8459500419A55 /* AppDelegate.m */,
+				64BBF69E1BE8459500419A55 /* ViewController.h */,
+				64BBF69F1BE8459500419A55 /* ViewController.m */,
+				64BBF6A11BE8459500419A55 /* Main.storyboard */,
+				64BBF6A41BE8459500419A55 /* Assets.xcassets */,
+				64BBF6A61BE8459500419A55 /* LaunchScreen.storyboard */,
+				64BBF6A91BE8459500419A55 /* Info.plist */,
+				64BBF6981BE8459500419A55 /* Supporting Files */,
+			);
+			path = "删除线下划线颜色";
+			sourceTree = "<group>";
+		};
+		64BBF6981BE8459500419A55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64BBF6991BE8459500419A55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64BBF6B11BE8459600419A55 /* 删除线下划线颜色Tests */ = {
+			isa = PBXGroup;
+			children = (
+				64BBF6B21BE8459600419A55 /* ________Tests.m */,
+				64BBF6B41BE8459600419A55 /* Info.plist */,
+			);
+			path = "删除线下划线颜色Tests";
+			sourceTree = "<group>";
+		};
+		64BBF6BC1BE8459600419A55 /* 删除线下划线颜色UITests */ = {
+			isa = PBXGroup;
+			children = (
+				64BBF6BD1BE8459600419A55 /* ________UITests.m */,
+				64BBF6BF1BE8459600419A55 /* Info.plist */,
+			);
+			path = "删除线下划线颜色UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64BBF6941BE8459500419A55 /* 删除线下划线颜色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BBF6C21BE8459600419A55 /* Build configuration list for PBXNativeTarget "删除线下划线颜色" */;
+			buildPhases = (
+				64BBF6911BE8459500419A55 /* Sources */,
+				64BBF6921BE8459500419A55 /* Frameworks */,
+				64BBF6931BE8459500419A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "删除线下划线颜色";
+			productName = "删除线下划线颜色";
+			productReference = 64BBF6951BE8459500419A55 /* 删除线下划线颜色.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64BBF6AD1BE8459600419A55 /* 删除线下划线颜色Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BBF6C51BE8459600419A55 /* Build configuration list for PBXNativeTarget "删除线下划线颜色Tests" */;
+			buildPhases = (
+				64BBF6AA1BE8459600419A55 /* Sources */,
+				64BBF6AB1BE8459600419A55 /* Frameworks */,
+				64BBF6AC1BE8459600419A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BBF6B01BE8459600419A55 /* PBXTargetDependency */,
+			);
+			name = "删除线下划线颜色Tests";
+			productName = "删除线下划线颜色Tests";
+			productReference = 64BBF6AE1BE8459600419A55 /* 删除线下划线颜色Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64BBF6B81BE8459600419A55 /* 删除线下划线颜色UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BBF6C81BE8459600419A55 /* Build configuration list for PBXNativeTarget "删除线下划线颜色UITests" */;
+			buildPhases = (
+				64BBF6B51BE8459600419A55 /* Sources */,
+				64BBF6B61BE8459600419A55 /* Frameworks */,
+				64BBF6B71BE8459600419A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BBF6BB1BE8459600419A55 /* PBXTargetDependency */,
+			);
+			name = "删除线下划线颜色UITests";
+			productName = "删除线下划线颜色UITests";
+			productReference = 64BBF6B91BE8459600419A55 /* 删除线下划线颜色UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64BBF68D1BE8459500419A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.mob.demoShareSDK;
+				TargetAttributes = {
+					64BBF6941BE8459500419A55 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					64BBF6AD1BE8459600419A55 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 64BBF6941BE8459500419A55;
+					};
+					64BBF6B81BE8459600419A55 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 64BBF6941BE8459500419A55;
+					};
+				};
+			};
+			buildConfigurationList = 64BBF6901BE8459500419A55 /* Build configuration list for PBXProject "删除线下划线颜色" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64BBF68C1BE8459500419A55;
+			productRefGroup = 64BBF6961BE8459500419A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64BBF6941BE8459500419A55 /* 删除线下划线颜色 */,
+				64BBF6AD1BE8459600419A55 /* 删除线下划线颜色Tests */,
+				64BBF6B81BE8459600419A55 /* 删除线下划线颜色UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64BBF6931BE8459500419A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BBF6A81BE8459500419A55 /* LaunchScreen.storyboard in Resources */,
+				64BBF6A51BE8459500419A55 /* Assets.xcassets in Resources */,
+				64BBF6A31BE8459500419A55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BBF6AC1BE8459600419A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BBF6B71BE8459600419A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64BBF6911BE8459500419A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BBF6A01BE8459500419A55 /* ViewController.m in Sources */,
+				64BBF6CD1BE845E600419A55 /* NSMutableAttributedString+Custom.m in Sources */,
+				64BBF69D1BE8459500419A55 /* AppDelegate.m in Sources */,
+				64BBF69A1BE8459500419A55 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BBF6AA1BE8459600419A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BBF6B31BE8459600419A55 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BBF6B51BE8459600419A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BBF6BE1BE8459600419A55 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64BBF6B01BE8459600419A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BBF6941BE8459500419A55 /* 删除线下划线颜色 */;
+			targetProxy = 64BBF6AF1BE8459600419A55 /* PBXContainerItemProxy */;
+		};
+		64BBF6BB1BE8459600419A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BBF6941BE8459500419A55 /* 删除线下划线颜色 */;
+			targetProxy = 64BBF6BA1BE8459600419A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64BBF6A11BE8459500419A55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BBF6A21BE8459500419A55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64BBF6A61BE8459500419A55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BBF6A71BE8459500419A55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64BBF6C01BE8459600419A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		64BBF6C11BE8459600419A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64BBF6C31BE8459600419A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "删除线下划线颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miao.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64BBF6C41BE8459600419A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "删除线下划线颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miao.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64BBF6C61BE8459600419A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "删除线下划线颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miao.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/删除线下划线颜色.app/删除线下划线颜色";
+			};
+			name = Debug;
+		};
+		64BBF6C71BE8459600419A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "删除线下划线颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miao.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/删除线下划线颜色.app/删除线下划线颜色";
+			};
+			name = Release;
+		};
+		64BBF6C91BE8459600419A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "删除线下划线颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miao.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "删除线下划线颜色";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		64BBF6CA1BE8459600419A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "删除线下划线颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miao.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "删除线下划线颜色";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64BBF6901BE8459500419A55 /* Build configuration list for PBXProject "删除线下划线颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BBF6C01BE8459600419A55 /* Debug */,
+				64BBF6C11BE8459600419A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BBF6C21BE8459600419A55 /* Build configuration list for PBXNativeTarget "删除线下划线颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BBF6C31BE8459600419A55 /* Debug */,
+				64BBF6C41BE8459600419A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64BBF6C51BE8459600419A55 /* Build configuration list for PBXNativeTarget "删除线下划线颜色Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BBF6C61BE8459600419A55 /* Debug */,
+				64BBF6C71BE8459600419A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64BBF6C81BE8459600419A55 /* Build configuration list for PBXNativeTarget "删除线下划线颜色UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BBF6C91BE8459600419A55 /* Debug */,
+				64BBF6CA1BE8459600419A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64BBF68D1BE8459500419A55 /* Project object */;
+}
